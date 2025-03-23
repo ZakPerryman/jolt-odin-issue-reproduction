@@ -1,0 +1,10 @@
+^C:\USERS\LUSR\DOCUMENTS\SHAPE_SHOOT\VENDOR\JOLTC\BUILD\CMAKEFILES\870DDA5CCD0287F6561D4D0719C5BBA6\GENERATE.STAMP.RULE
+setlocal
+C:\Users\lusr\scoop\apps\cmake\3.30.3\bin\cmake.exe -SC:/Users/lusr/Documents/shape_shoot/vendor/JoltC/JoltC -BC:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltC.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

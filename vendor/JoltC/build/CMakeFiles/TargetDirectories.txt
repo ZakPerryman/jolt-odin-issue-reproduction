@@ -1,0 +1,8 @@
+C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/CMakeFiles/joltc.dir
+C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/CMakeFiles/HelloWorld.dir
+C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/CMakeFiles/INSTALL.dir
+C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/Jolt.dir
+C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/INSTALL.dir
+C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/ALL_BUILD.dir

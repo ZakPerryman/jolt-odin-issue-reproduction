@@ -1,0 +1,1464 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:27 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:27 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.12.6+db5f6012c for .NET Framework
+      Build started 3/22/2025 9:58:00 PM.
+      
+      Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\CMakeFiles\\3.30.3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\CMakeFiles\\3.30.3\\CompilerIdC\\CompilerIdC.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\CMakeFiles\\3.30.3\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\CMakeFiles\\3.30.3\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.04
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/CMakeFiles/3.30.3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:27 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.12.6+db5f6012c for .NET Framework
+      Build started 3/22/2025 9:58:01 PM.
+      
+      Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\CMakeFiles\\3.30.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\CMakeFiles\\3.30.3\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\CMakeFiles\\3.30.3\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\CMakeFiles\\3.30.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.98
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/CMakeFiles/3.30.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:27 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/CMakeFiles/CMakeScratch/TryCompile-sqezhc"
+      binary: "C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/CMakeFiles/CMakeScratch/TryCompile-sqezhc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/CMakeFiles/CMakeScratch/TryCompile-sqezhc'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9e068.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.12.6+db5f6012c for .NET Framework
+        Build started 3/22/2025 9:58:02 PM.
+        
+        Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sqezhc\\cmTC_9e068.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_9e068.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sqezhc\\Debug\\".
+          Creating directory "cmTC_9e068.dir\\Debug\\cmTC_9e068.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_9e068.dir\\Debug\\cmTC_9e068.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_9e068.dir\\Debug\\cmTC_9e068.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9e068.dir\\Debug\\\\" /Fd"cmTC_9e068.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\lusr\\scoop\\apps\\cmake\\3.30.3\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33143 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9e068.dir\\Debug\\\\" /Fd"cmTC_9e068.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\lusr\\scoop\\apps\\cmake\\3.30.3\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sqezhc\\Debug\\cmTC_9e068.exe" /INCREMENTAL /ILK:"cmTC_9e068.dir\\Debug\\cmTC_9e068.ilk" /NOLOGO /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/CMakeFiles/CMakeScratch/TryCompile-sqezhc/Debug/cmTC_9e068.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/CMakeFiles/CMakeScratch/TryCompile-sqezhc/Debug/cmTC_9e068.lib" /MACHINE:X64  /machine:x64 cmTC_9e068.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_9e068.vcxproj -> C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sqezhc\\Debug\\cmTC_9e068.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sqezhc\\Debug\\cmTC_9e068.exe" "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\bin" "cmTC_9e068.dir\\Debug\\cmTC_9e068.tlog\\cmTC_9e068.write.1u.tlog" "cmTC_9e068.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_9e068.dir\\Debug\\cmTC_9e068.tlog\\unsuccessfulbuild".
+          Touching "cmTC_9e068.dir\\Debug\\cmTC_9e068.tlog\\cmTC_9e068.lastbuildstate".
+        Done Building Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sqezhc\\cmTC_9e068.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.99
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:27 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:27 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.38.33143.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:27 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/CMakeFiles/CMakeScratch/TryCompile-yxyas8"
+      binary: "C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/CMakeFiles/CMakeScratch/TryCompile-yxyas8"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/CMakeFiles/CMakeScratch/TryCompile-yxyas8'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d8048.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.12.6+db5f6012c for .NET Framework
+        Build started 3/22/2025 9:58:03 PM.
+        
+        Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yxyas8\\cmTC_d8048.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_d8048.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yxyas8\\Debug\\".
+          Creating directory "cmTC_d8048.dir\\Debug\\cmTC_d8048.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_d8048.dir\\Debug\\cmTC_d8048.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_d8048.dir\\Debug\\cmTC_d8048.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d8048.dir\\Debug\\\\" /Fd"cmTC_d8048.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\lusr\\scoop\\apps\\cmake\\3.30.3\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33143 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d8048.dir\\Debug\\\\" /Fd"cmTC_d8048.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\lusr\\scoop\\apps\\cmake\\3.30.3\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yxyas8\\Debug\\cmTC_d8048.exe" /INCREMENTAL /ILK:"cmTC_d8048.dir\\Debug\\cmTC_d8048.ilk" /NOLOGO /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/CMakeFiles/CMakeScratch/TryCompile-yxyas8/Debug/cmTC_d8048.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/CMakeFiles/CMakeScratch/TryCompile-yxyas8/Debug/cmTC_d8048.lib" /MACHINE:X64  /machine:x64 cmTC_d8048.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_d8048.vcxproj -> C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yxyas8\\Debug\\cmTC_d8048.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yxyas8\\Debug\\cmTC_d8048.exe" "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\bin" "cmTC_d8048.dir\\Debug\\cmTC_d8048.tlog\\cmTC_d8048.write.1u.tlog" "cmTC_d8048.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_d8048.dir\\Debug\\cmTC_d8048.tlog\\unsuccessfulbuild".
+          Touching "cmTC_d8048.dir\\Debug\\cmTC_d8048.tlog\\cmTC_d8048.lastbuildstate".
+        Done Building Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yxyas8\\cmTC_d8048.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.01
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:27 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:27 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.38.33143.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CheckIPOSupported.cmake:261 (_ipo_run_language_check)"
+      - "JoltPhysics/Build/CMakeLists.txt:278 (check_ipo_supported)"
+      - "JoltPhysics/Build/CMakeLists.txt:289 (SET_INTERPROCEDURAL_OPTIMIZATION)"
+    directories:
+      source: "C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-CXX/src"
+      binary: "C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-CXX/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.12.6+db5f6012c for .NET Framework
+        Build started 3/22/2025 9:58:05 PM.
+        
+        Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" (1) is building "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "x64\\Debug\\ZERO_CHECK\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\".
+        InitializeBuildStatus:
+          Creating "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          1>Checking Build System
+        FinalizeBuildStatus:
+          Deleting file "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+          Touching "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate".
+        Done Building Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ZERO_CHECK.vcxproj" (default targets).
+        Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" (1) is building "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj" (3) on node 1 (default targets).
+        Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj" (3) is building "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\foo.vcxproj" (4) on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "foo.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\".
+          Creating directory "foo.dir\\Debug\\foo.tlog\\".
+        InitializeBuildStatus:
+          Creating "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Building Custom Rule C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"foo.dir\\Debug\\\\" /Fd"C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\foo.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33143 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"foo.dir\\Debug\\\\" /Fd"C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\foo.cpp"
+          foo.cpp
+        Lib:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\Lib.exe /OUT:"C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.lib" /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib\\manual-link" /NOLOGO /MACHINE:X64 /LTCG  /machine:x64 foo.dir\\Debug\\foo.obj
+          foo.vcxproj -> C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.lib
+        FinalizeBuildStatus:
+          Deleting file "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild".
+          Touching "foo.dir\\Debug\\foo.tlog\\foo.lastbuildstate".
+        Done Building Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\foo.vcxproj" (default targets).
+        PrepareForBuild:
+          Creating directory "boo.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "boo.dir\\Debug\\boo.tlog\\".
+        InitializeBuildStatus:
+          Creating "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Building Custom Rule C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\main.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33143 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\main.cpp"
+          main.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\boo.exe" /NOLOGO /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib\\manual-link" Debug\\foo.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-CXX/bin/Debug/boo.pdb" /SUBSYSTEM:CONSOLE /LTCG:incremental /LTCGOUT:"boo.dir\\Debug\\boo.iobj" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-CXX/bin/Debug/boo.lib" /MACHINE:X64  /machine:x64 boo.dir\\Debug\\main.obj
+          Generating code
+          Not all modules are compiled with -Gy (function comdat), build without incremental LTCG.
+          Finished generating code
+          boo.vcxproj -> C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\boo.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\boo.exe" "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\bin" "boo.dir\\Debug\\boo.tlog\\boo.write.1u.tlog" "boo.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild".
+          Touching "boo.dir\\Debug\\boo.tlog\\boo.lastbuildstate".
+        Done Building Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj" (default targets).
+        PrepareForBuild:
+          Creating directory "x64\\Debug\\ALL_BUILD\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\".
+        InitializeBuildStatus:
+          Creating "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Building Custom Rule C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
+        FinalizeBuildStatus:
+          Deleting file "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild".
+          Touching "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\ALL_BUILD.lastbuildstate".
+        Done Building Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.59
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CheckIPOSupported.cmake:261 (_ipo_run_language_check)"
+      - "JoltPhysics/Build/CMakeLists.txt:278 (check_ipo_supported)"
+      - "JoltPhysics/Build/CMakeLists.txt:289 (SET_INTERPROCEDURAL_OPTIMIZATION)"
+    directories:
+      source: "C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-C/src"
+      binary: "C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-C/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-C/bin'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.12.6+db5f6012c for .NET Framework
+        Build started 3/22/2025 9:58:06 PM.
+        
+        Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\ALL_BUILD.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\ALL_BUILD.vcxproj" (1) is building "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "x64\\Debug\\ZERO_CHECK\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\".
+        InitializeBuildStatus:
+          Creating "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          1>Checking Build System
+        FinalizeBuildStatus:
+          Deleting file "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+          Touching "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate".
+        Done Building Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\ZERO_CHECK.vcxproj" (default targets).
+        Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\ALL_BUILD.vcxproj" (1) is building "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\boo.vcxproj" (3) on node 1 (default targets).
+        Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\boo.vcxproj" (3) is building "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\foo.vcxproj" (4) on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "foo.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\Debug\\".
+          Creating directory "foo.dir\\Debug\\foo.tlog\\".
+        InitializeBuildStatus:
+          Creating "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Building Custom Rule C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-C/src/CMakeLists.txt
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"foo.dir\\Debug\\\\" /Fd"C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\Debug\\foo.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\src\\foo.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33143 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"foo.dir\\Debug\\\\" /Fd"C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\Debug\\foo.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\src\\foo.c"
+          foo.c
+        Lib:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\Lib.exe /OUT:"C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\Debug\\foo.lib" /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib\\manual-link" /NOLOGO /MACHINE:X64 /LTCG  /machine:x64 foo.dir\\Debug\\foo.obj
+          foo.vcxproj -> C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\Debug\\foo.lib
+        FinalizeBuildStatus:
+          Deleting file "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild".
+          Touching "foo.dir\\Debug\\foo.tlog\\foo.lastbuildstate".
+        Done Building Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\foo.vcxproj" (default targets).
+        PrepareForBuild:
+          Creating directory "boo.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "boo.dir\\Debug\\boo.tlog\\".
+        InitializeBuildStatus:
+          Creating "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Building Custom Rule C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-C/src/CMakeLists.txt
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\src\\main.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33143 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\src\\main.c"
+          main.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\Debug\\boo.exe" /NOLOGO /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib\\manual-link" Debug\\foo.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-C/bin/Debug/boo.pdb" /SUBSYSTEM:CONSOLE /LTCG:incremental /LTCGOUT:"boo.dir\\Debug\\boo.iobj" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-C/bin/Debug/boo.lib" /MACHINE:X64  /machine:x64 boo.dir\\Debug\\main.obj
+          Generating code
+          Not all modules are compiled with -Gy (function comdat), build without incremental LTCG.
+          Finished generating code
+          boo.vcxproj -> C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\Debug\\boo.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\Debug\\boo.exe" "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\bin" "boo.dir\\Debug\\boo.tlog\\boo.write.1u.tlog" "boo.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild".
+          Touching "boo.dir\\Debug\\boo.tlog\\boo.lastbuildstate".
+        Done Building Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\boo.vcxproj" (default targets).
+        PrepareForBuild:
+          Creating directory "x64\\Debug\\ALL_BUILD\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\".
+        InitializeBuildStatus:
+          Creating "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Building Custom Rule C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-C/src/CMakeLists.txt
+        FinalizeBuildStatus:
+          Deleting file "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild".
+          Touching "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\ALL_BUILD.lastbuildstate".
+        Done Building Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\ALL_BUILD.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.54
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CheckIPOSupported.cmake:261 (_ipo_run_language_check)"
+      - "JoltPhysics/Build/CMakeLists.txt:278 (check_ipo_supported)"
+      - "JoltPhysics/Build/CMakeLists.txt:289 (SET_INTERPROCEDURAL_OPTIMIZATION)"
+    directories:
+      source: "C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-CXX/src"
+      binary: "C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-CXX/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.12.6+db5f6012c for .NET Framework
+        Build started 3/22/2025 9:58:44 PM.
+        
+        Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" (1) is building "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "x64\\Debug\\ZERO_CHECK\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\".
+        InitializeBuildStatus:
+          Creating "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          1>Checking Build System
+        FinalizeBuildStatus:
+          Deleting file "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+          Touching "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate".
+        Done Building Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ZERO_CHECK.vcxproj" (default targets).
+        Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" (1) is building "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj" (3) on node 1 (default targets).
+        Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj" (3) is building "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\foo.vcxproj" (4) on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "foo.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\".
+          Creating directory "foo.dir\\Debug\\foo.tlog\\".
+        InitializeBuildStatus:
+          Creating "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Building Custom Rule C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"foo.dir\\Debug\\\\" /Fd"C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\foo.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33143 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"foo.dir\\Debug\\\\" /Fd"C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\foo.cpp"
+          foo.cpp
+        Lib:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\Lib.exe /OUT:"C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.lib" /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib\\manual-link" /NOLOGO /MACHINE:X64 /LTCG  /machine:x64 foo.dir\\Debug\\foo.obj
+          foo.vcxproj -> C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.lib
+        FinalizeBuildStatus:
+          Deleting file "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild".
+          Touching "foo.dir\\Debug\\foo.tlog\\foo.lastbuildstate".
+        Done Building Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\foo.vcxproj" (default targets).
+        PrepareForBuild:
+          Creating directory "boo.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "boo.dir\\Debug\\boo.tlog\\".
+        InitializeBuildStatus:
+          Creating "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Building Custom Rule C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\main.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33143 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\main.cpp"
+          main.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\boo.exe" /NOLOGO /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib\\manual-link" Debug\\foo.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-CXX/bin/Debug/boo.pdb" /SUBSYSTEM:CONSOLE /LTCG:incremental /LTCGOUT:"boo.dir\\Debug\\boo.iobj" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-CXX/bin/Debug/boo.lib" /MACHINE:X64  /machine:x64 boo.dir\\Debug\\main.obj
+          Generating code
+          Not all modules are compiled with -Gy (function comdat), build without incremental LTCG.
+          Finished generating code
+          boo.vcxproj -> C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\boo.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\boo.exe" "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\bin" "boo.dir\\Debug\\boo.tlog\\boo.write.1u.tlog" "boo.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild".
+          Touching "boo.dir\\Debug\\boo.tlog\\boo.lastbuildstate".
+        Done Building Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj" (default targets).
+        PrepareForBuild:
+          Creating directory "x64\\Debug\\ALL_BUILD\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\".
+        InitializeBuildStatus:
+          Creating "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Building Custom Rule C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
+        FinalizeBuildStatus:
+          Deleting file "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild".
+          Touching "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\ALL_BUILD.lastbuildstate".
+        Done Building Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.64
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CheckIPOSupported.cmake:261 (_ipo_run_language_check)"
+      - "JoltPhysics/Build/CMakeLists.txt:278 (check_ipo_supported)"
+      - "JoltPhysics/Build/CMakeLists.txt:289 (SET_INTERPROCEDURAL_OPTIMIZATION)"
+    directories:
+      source: "C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-C/src"
+      binary: "C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-C/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-C/bin'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.12.6+db5f6012c for .NET Framework
+        Build started 3/22/2025 9:58:46 PM.
+        
+        Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\ALL_BUILD.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\ALL_BUILD.vcxproj" (1) is building "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "x64\\Debug\\ZERO_CHECK\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\".
+        InitializeBuildStatus:
+          Creating "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          1>Checking Build System
+        FinalizeBuildStatus:
+          Deleting file "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+          Touching "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate".
+        Done Building Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\ZERO_CHECK.vcxproj" (default targets).
+        Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\ALL_BUILD.vcxproj" (1) is building "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\boo.vcxproj" (3) on node 1 (default targets).
+        Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\boo.vcxproj" (3) is building "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\foo.vcxproj" (4) on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "foo.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\Debug\\".
+          Creating directory "foo.dir\\Debug\\foo.tlog\\".
+        InitializeBuildStatus:
+          Creating "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Building Custom Rule C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-C/src/CMakeLists.txt
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"foo.dir\\Debug\\\\" /Fd"C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\Debug\\foo.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\src\\foo.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33143 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"foo.dir\\Debug\\\\" /Fd"C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\Debug\\foo.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\src\\foo.c"
+          foo.c
+        Lib:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\Lib.exe /OUT:"C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\Debug\\foo.lib" /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib\\manual-link" /NOLOGO /MACHINE:X64 /LTCG  /machine:x64 foo.dir\\Debug\\foo.obj
+          foo.vcxproj -> C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\Debug\\foo.lib
+        FinalizeBuildStatus:
+          Deleting file "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild".
+          Touching "foo.dir\\Debug\\foo.tlog\\foo.lastbuildstate".
+        Done Building Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\foo.vcxproj" (default targets).
+        PrepareForBuild:
+          Creating directory "boo.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "boo.dir\\Debug\\boo.tlog\\".
+        InitializeBuildStatus:
+          Creating "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Building Custom Rule C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-C/src/CMakeLists.txt
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\src\\main.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33143 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\src\\main.c"
+          main.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\Debug\\boo.exe" /NOLOGO /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib\\manual-link" Debug\\foo.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-C/bin/Debug/boo.pdb" /SUBSYSTEM:CONSOLE /LTCG:incremental /LTCGOUT:"boo.dir\\Debug\\boo.iobj" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-C/bin/Debug/boo.lib" /MACHINE:X64  /machine:x64 boo.dir\\Debug\\main.obj
+          Generating code
+          Not all modules are compiled with -Gy (function comdat), build without incremental LTCG.
+          Finished generating code
+          boo.vcxproj -> C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\Debug\\boo.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\Debug\\boo.exe" "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\bin" "boo.dir\\Debug\\boo.tlog\\boo.write.1u.tlog" "boo.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild".
+          Touching "boo.dir\\Debug\\boo.tlog\\boo.lastbuildstate".
+        Done Building Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\boo.vcxproj" (default targets).
+        PrepareForBuild:
+          Creating directory "x64\\Debug\\ALL_BUILD\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\".
+        InitializeBuildStatus:
+          Creating "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Building Custom Rule C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-C/src/CMakeLists.txt
+        FinalizeBuildStatus:
+          Deleting file "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild".
+          Touching "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\ALL_BUILD.lastbuildstate".
+        Done Building Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\ALL_BUILD.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.56
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CheckIPOSupported.cmake:261 (_ipo_run_language_check)"
+      - "JoltPhysics/Build/CMakeLists.txt:278 (check_ipo_supported)"
+      - "JoltPhysics/Build/CMakeLists.txt:289 (SET_INTERPROCEDURAL_OPTIMIZATION)"
+    directories:
+      source: "C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-CXX/src"
+      binary: "C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-CXX/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.12.6+db5f6012c for .NET Framework
+        Build started 3/23/2025 4:36:35 PM.
+        
+        Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" (1) is building "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "x64\\Debug\\ZERO_CHECK\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\".
+        InitializeBuildStatus:
+          Creating "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          1>Checking Build System
+        FinalizeBuildStatus:
+          Deleting file "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+          Touching "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate".
+        Done Building Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ZERO_CHECK.vcxproj" (default targets).
+        Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" (1) is building "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj" (3) on node 1 (default targets).
+        Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj" (3) is building "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\foo.vcxproj" (4) on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "foo.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\".
+          Creating directory "foo.dir\\Debug\\foo.tlog\\".
+        InitializeBuildStatus:
+          Creating "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Building Custom Rule C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"foo.dir\\Debug\\\\" /Fd"C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\foo.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33143 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"foo.dir\\Debug\\\\" /Fd"C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\foo.cpp"
+          foo.cpp
+        Lib:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\Lib.exe /OUT:"C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.lib" /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib\\manual-link" /NOLOGO /MACHINE:X64 /LTCG  /machine:x64 foo.dir\\Debug\\foo.obj
+          foo.vcxproj -> C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.lib
+        FinalizeBuildStatus:
+          Deleting file "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild".
+          Touching "foo.dir\\Debug\\foo.tlog\\foo.lastbuildstate".
+        Done Building Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\foo.vcxproj" (default targets).
+        PrepareForBuild:
+          Creating directory "boo.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "boo.dir\\Debug\\boo.tlog\\".
+        InitializeBuildStatus:
+          Creating "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Building Custom Rule C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\main.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33143 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\main.cpp"
+          main.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\boo.exe" /NOLOGO /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib\\manual-link" Debug\\foo.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-CXX/bin/Debug/boo.pdb" /SUBSYSTEM:CONSOLE /LTCG:incremental /LTCGOUT:"boo.dir\\Debug\\boo.iobj" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-CXX/bin/Debug/boo.lib" /MACHINE:X64  /machine:x64 boo.dir\\Debug\\main.obj
+          Generating code
+          Not all modules are compiled with -Gy (function comdat), build without incremental LTCG.
+          Finished generating code
+          boo.vcxproj -> C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\boo.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\boo.exe" "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\bin" "boo.dir\\Debug\\boo.tlog\\boo.write.1u.tlog" "boo.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild".
+          Touching "boo.dir\\Debug\\boo.tlog\\boo.lastbuildstate".
+        Done Building Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj" (default targets).
+        PrepareForBuild:
+          Creating directory "x64\\Debug\\ALL_BUILD\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\".
+        InitializeBuildStatus:
+          Creating "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Building Custom Rule C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
+        FinalizeBuildStatus:
+          Deleting file "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild".
+          Touching "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\ALL_BUILD.lastbuildstate".
+        Done Building Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.62
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CheckIPOSupported.cmake:261 (_ipo_run_language_check)"
+      - "JoltPhysics/Build/CMakeLists.txt:278 (check_ipo_supported)"
+      - "JoltPhysics/Build/CMakeLists.txt:289 (SET_INTERPROCEDURAL_OPTIMIZATION)"
+    directories:
+      source: "C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-C/src"
+      binary: "C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-C/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-C/bin'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.12.6+db5f6012c for .NET Framework
+        Build started 3/23/2025 4:36:38 PM.
+        
+        Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\ALL_BUILD.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\ALL_BUILD.vcxproj" (1) is building "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "x64\\Debug\\ZERO_CHECK\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\".
+        InitializeBuildStatus:
+          Creating "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          1>Checking Build System
+        FinalizeBuildStatus:
+          Deleting file "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+          Touching "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate".
+        Done Building Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\ZERO_CHECK.vcxproj" (default targets).
+        Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\ALL_BUILD.vcxproj" (1) is building "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\boo.vcxproj" (3) on node 1 (default targets).
+        Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\boo.vcxproj" (3) is building "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\foo.vcxproj" (4) on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "foo.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\Debug\\".
+          Creating directory "foo.dir\\Debug\\foo.tlog\\".
+        InitializeBuildStatus:
+          Creating "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Building Custom Rule C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-C/src/CMakeLists.txt
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"foo.dir\\Debug\\\\" /Fd"C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\Debug\\foo.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\src\\foo.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33143 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"foo.dir\\Debug\\\\" /Fd"C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\Debug\\foo.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\src\\foo.c"
+          foo.c
+        Lib:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\Lib.exe /OUT:"C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\Debug\\foo.lib" /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib\\manual-link" /NOLOGO /MACHINE:X64 /LTCG  /machine:x64 foo.dir\\Debug\\foo.obj
+          foo.vcxproj -> C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\Debug\\foo.lib
+        FinalizeBuildStatus:
+          Deleting file "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild".
+          Touching "foo.dir\\Debug\\foo.tlog\\foo.lastbuildstate".
+        Done Building Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\foo.vcxproj" (default targets).
+        PrepareForBuild:
+          Creating directory "boo.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "boo.dir\\Debug\\boo.tlog\\".
+        InitializeBuildStatus:
+          Creating "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Building Custom Rule C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-C/src/CMakeLists.txt
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\src\\main.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33143 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\src\\main.c"
+          main.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\Debug\\boo.exe" /NOLOGO /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib\\manual-link" Debug\\foo.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-C/bin/Debug/boo.pdb" /SUBSYSTEM:CONSOLE /LTCG:incremental /LTCGOUT:"boo.dir\\Debug\\boo.iobj" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-C/bin/Debug/boo.lib" /MACHINE:X64  /machine:x64 boo.dir\\Debug\\main.obj
+          Generating code
+          Not all modules are compiled with -Gy (function comdat), build without incremental LTCG.
+          Finished generating code
+          boo.vcxproj -> C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\Debug\\boo.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\Debug\\boo.exe" "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\bin" "boo.dir\\Debug\\boo.tlog\\boo.write.1u.tlog" "boo.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild".
+          Touching "boo.dir\\Debug\\boo.tlog\\boo.lastbuildstate".
+        Done Building Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\boo.vcxproj" (default targets).
+        PrepareForBuild:
+          Creating directory "x64\\Debug\\ALL_BUILD\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\".
+        InitializeBuildStatus:
+          Creating "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Building Custom Rule C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-C/src/CMakeLists.txt
+        FinalizeBuildStatus:
+          Deleting file "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild".
+          Touching "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\ALL_BUILD.lastbuildstate".
+        Done Building Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\ALL_BUILD.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.65
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CheckIPOSupported.cmake:261 (_ipo_run_language_check)"
+      - "JoltPhysics/Build/CMakeLists.txt:278 (check_ipo_supported)"
+      - "JoltPhysics/Build/CMakeLists.txt:289 (SET_INTERPROCEDURAL_OPTIMIZATION)"
+    directories:
+      source: "C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-CXX/src"
+      binary: "C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-CXX/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.12.6+db5f6012c for .NET Framework
+        Build started 3/23/2025 4:37:07 PM.
+        
+        Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" (1) is building "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "x64\\Debug\\ZERO_CHECK\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\".
+        InitializeBuildStatus:
+          Creating "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          1>Checking Build System
+        FinalizeBuildStatus:
+          Deleting file "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+          Touching "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate".
+        Done Building Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ZERO_CHECK.vcxproj" (default targets).
+        Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" (1) is building "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj" (3) on node 1 (default targets).
+        Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj" (3) is building "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\foo.vcxproj" (4) on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "foo.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\".
+          Creating directory "foo.dir\\Debug\\foo.tlog\\".
+        InitializeBuildStatus:
+          Creating "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Building Custom Rule C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"foo.dir\\Debug\\\\" /Fd"C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\foo.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33143 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"foo.dir\\Debug\\\\" /Fd"C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\foo.cpp"
+          foo.cpp
+        Lib:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\Lib.exe /OUT:"C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.lib" /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib\\manual-link" /NOLOGO /MACHINE:X64 /LTCG  /machine:x64 foo.dir\\Debug\\foo.obj
+          foo.vcxproj -> C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.lib
+        FinalizeBuildStatus:
+          Deleting file "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild".
+          Touching "foo.dir\\Debug\\foo.tlog\\foo.lastbuildstate".
+        Done Building Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\foo.vcxproj" (default targets).
+        PrepareForBuild:
+          Creating directory "boo.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "boo.dir\\Debug\\boo.tlog\\".
+        InitializeBuildStatus:
+          Creating "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Building Custom Rule C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\main.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33143 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\main.cpp"
+          main.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\boo.exe" /NOLOGO /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib\\manual-link" Debug\\foo.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-CXX/bin/Debug/boo.pdb" /SUBSYSTEM:CONSOLE /LTCG:incremental /LTCGOUT:"boo.dir\\Debug\\boo.iobj" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-CXX/bin/Debug/boo.lib" /MACHINE:X64  /machine:x64 boo.dir\\Debug\\main.obj
+          Generating code
+          Not all modules are compiled with -Gy (function comdat), build without incremental LTCG.
+          Finished generating code
+          boo.vcxproj -> C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\boo.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\boo.exe" "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\bin" "boo.dir\\Debug\\boo.tlog\\boo.write.1u.tlog" "boo.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild".
+          Touching "boo.dir\\Debug\\boo.tlog\\boo.lastbuildstate".
+        Done Building Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj" (default targets).
+        PrepareForBuild:
+          Creating directory "x64\\Debug\\ALL_BUILD\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\".
+        InitializeBuildStatus:
+          Creating "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Building Custom Rule C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
+        FinalizeBuildStatus:
+          Deleting file "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild".
+          Touching "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\ALL_BUILD.lastbuildstate".
+        Done Building Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.60
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CheckIPOSupported.cmake:261 (_ipo_run_language_check)"
+      - "JoltPhysics/Build/CMakeLists.txt:278 (check_ipo_supported)"
+      - "JoltPhysics/Build/CMakeLists.txt:289 (SET_INTERPROCEDURAL_OPTIMIZATION)"
+    directories:
+      source: "C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-C/src"
+      binary: "C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-C/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-C/bin'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.12.6+db5f6012c for .NET Framework
+        Build started 3/23/2025 4:37:09 PM.
+        
+        Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\ALL_BUILD.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\ALL_BUILD.vcxproj" (1) is building "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "x64\\Debug\\ZERO_CHECK\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\".
+        InitializeBuildStatus:
+          Creating "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          1>Checking Build System
+        FinalizeBuildStatus:
+          Deleting file "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+          Touching "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate".
+        Done Building Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\ZERO_CHECK.vcxproj" (default targets).
+        Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\ALL_BUILD.vcxproj" (1) is building "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\boo.vcxproj" (3) on node 1 (default targets).
+        Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\boo.vcxproj" (3) is building "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\foo.vcxproj" (4) on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "foo.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\Debug\\".
+          Creating directory "foo.dir\\Debug\\foo.tlog\\".
+        InitializeBuildStatus:
+          Creating "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Building Custom Rule C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-C/src/CMakeLists.txt
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"foo.dir\\Debug\\\\" /Fd"C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\Debug\\foo.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\src\\foo.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33143 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"foo.dir\\Debug\\\\" /Fd"C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\Debug\\foo.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\src\\foo.c"
+          foo.c
+        Lib:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\Lib.exe /OUT:"C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\Debug\\foo.lib" /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib\\manual-link" /NOLOGO /MACHINE:X64 /LTCG  /machine:x64 foo.dir\\Debug\\foo.obj
+          foo.vcxproj -> C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\Debug\\foo.lib
+        FinalizeBuildStatus:
+          Deleting file "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild".
+          Touching "foo.dir\\Debug\\foo.tlog\\foo.lastbuildstate".
+        Done Building Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\foo.vcxproj" (default targets).
+        PrepareForBuild:
+          Creating directory "boo.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "boo.dir\\Debug\\boo.tlog\\".
+        InitializeBuildStatus:
+          Creating "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Building Custom Rule C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-C/src/CMakeLists.txt
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\src\\main.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33143 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\src\\main.c"
+          main.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\Debug\\boo.exe" /NOLOGO /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib\\manual-link" Debug\\foo.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-C/bin/Debug/boo.pdb" /SUBSYSTEM:CONSOLE /LTCG:incremental /LTCGOUT:"boo.dir\\Debug\\boo.iobj" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-C/bin/Debug/boo.lib" /MACHINE:X64  /machine:x64 boo.dir\\Debug\\main.obj
+          Generating code
+          Not all modules are compiled with -Gy (function comdat), build without incremental LTCG.
+          Finished generating code
+          boo.vcxproj -> C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\Debug\\boo.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\Debug\\boo.exe" "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\bin" "boo.dir\\Debug\\boo.tlog\\boo.write.1u.tlog" "boo.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild".
+          Touching "boo.dir\\Debug\\boo.tlog\\boo.lastbuildstate".
+        Done Building Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\boo.vcxproj" (default targets).
+        PrepareForBuild:
+          Creating directory "x64\\Debug\\ALL_BUILD\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\".
+        InitializeBuildStatus:
+          Creating "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Building Custom Rule C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-C/src/CMakeLists.txt
+        FinalizeBuildStatus:
+          Deleting file "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild".
+          Touching "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\ALL_BUILD.lastbuildstate".
+        Done Building Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\ALL_BUILD.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.60
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CheckIPOSupported.cmake:261 (_ipo_run_language_check)"
+      - "JoltPhysics/Build/CMakeLists.txt:278 (check_ipo_supported)"
+      - "JoltPhysics/Build/CMakeLists.txt:289 (SET_INTERPROCEDURAL_OPTIMIZATION)"
+    directories:
+      source: "C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-CXX/src"
+      binary: "C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-CXX/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.12.6+db5f6012c for .NET Framework
+        Build started 3/23/2025 4:38:11 PM.
+        
+        Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" (1) is building "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "x64\\Debug\\ZERO_CHECK\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\".
+        InitializeBuildStatus:
+          Creating "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          1>Checking Build System
+        FinalizeBuildStatus:
+          Deleting file "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+          Touching "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate".
+        Done Building Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ZERO_CHECK.vcxproj" (default targets).
+        Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" (1) is building "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj" (3) on node 1 (default targets).
+        Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj" (3) is building "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\foo.vcxproj" (4) on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "foo.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\".
+          Creating directory "foo.dir\\Debug\\foo.tlog\\".
+        InitializeBuildStatus:
+          Creating "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Building Custom Rule C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"foo.dir\\Debug\\\\" /Fd"C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\foo.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33143 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"foo.dir\\Debug\\\\" /Fd"C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\foo.cpp"
+          foo.cpp
+        Lib:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\Lib.exe /OUT:"C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.lib" /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib\\manual-link" /NOLOGO /MACHINE:X64 /LTCG  /machine:x64 foo.dir\\Debug\\foo.obj
+          foo.vcxproj -> C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.lib
+        FinalizeBuildStatus:
+          Deleting file "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild".
+          Touching "foo.dir\\Debug\\foo.tlog\\foo.lastbuildstate".
+        Done Building Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\foo.vcxproj" (default targets).
+        PrepareForBuild:
+          Creating directory "boo.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "boo.dir\\Debug\\boo.tlog\\".
+        InitializeBuildStatus:
+          Creating "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Building Custom Rule C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\main.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33143 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\main.cpp"
+          main.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\boo.exe" /NOLOGO /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib\\manual-link" Debug\\foo.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-CXX/bin/Debug/boo.pdb" /SUBSYSTEM:CONSOLE /LTCG:incremental /LTCGOUT:"boo.dir\\Debug\\boo.iobj" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-CXX/bin/Debug/boo.lib" /MACHINE:X64  /machine:x64 boo.dir\\Debug\\main.obj
+          Generating code
+          Not all modules are compiled with -Gy (function comdat), build without incremental LTCG.
+          Finished generating code
+          boo.vcxproj -> C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\boo.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\boo.exe" "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\bin" "boo.dir\\Debug\\boo.tlog\\boo.write.1u.tlog" "boo.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild".
+          Touching "boo.dir\\Debug\\boo.tlog\\boo.lastbuildstate".
+        Done Building Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj" (default targets).
+        PrepareForBuild:
+          Creating directory "x64\\Debug\\ALL_BUILD\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\".
+        InitializeBuildStatus:
+          Creating "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Building Custom Rule C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
+        FinalizeBuildStatus:
+          Deleting file "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild".
+          Touching "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\ALL_BUILD.lastbuildstate".
+        Done Building Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.59
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CheckIPOSupported.cmake:261 (_ipo_run_language_check)"
+      - "JoltPhysics/Build/CMakeLists.txt:278 (check_ipo_supported)"
+      - "JoltPhysics/Build/CMakeLists.txt:289 (SET_INTERPROCEDURAL_OPTIMIZATION)"
+    directories:
+      source: "C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-C/src"
+      binary: "C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-C/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-C/bin'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.12.6+db5f6012c for .NET Framework
+        Build started 3/23/2025 4:38:13 PM.
+        
+        Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\ALL_BUILD.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\ALL_BUILD.vcxproj" (1) is building "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "x64\\Debug\\ZERO_CHECK\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\".
+        InitializeBuildStatus:
+          Creating "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          1>Checking Build System
+        FinalizeBuildStatus:
+          Deleting file "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+          Touching "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate".
+        Done Building Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\ZERO_CHECK.vcxproj" (default targets).
+        Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\ALL_BUILD.vcxproj" (1) is building "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\boo.vcxproj" (3) on node 1 (default targets).
+        Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\boo.vcxproj" (3) is building "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\foo.vcxproj" (4) on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "foo.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\Debug\\".
+          Creating directory "foo.dir\\Debug\\foo.tlog\\".
+        InitializeBuildStatus:
+          Creating "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Building Custom Rule C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-C/src/CMakeLists.txt
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"foo.dir\\Debug\\\\" /Fd"C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\Debug\\foo.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\src\\foo.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33143 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"foo.dir\\Debug\\\\" /Fd"C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\Debug\\foo.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\src\\foo.c"
+          foo.c
+        Lib:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\Lib.exe /OUT:"C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\Debug\\foo.lib" /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib\\manual-link" /NOLOGO /MACHINE:X64 /LTCG  /machine:x64 foo.dir\\Debug\\foo.obj
+          foo.vcxproj -> C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\Debug\\foo.lib
+        FinalizeBuildStatus:
+          Deleting file "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild".
+          Touching "foo.dir\\Debug\\foo.tlog\\foo.lastbuildstate".
+        Done Building Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\foo.vcxproj" (default targets).
+        PrepareForBuild:
+          Creating directory "boo.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "boo.dir\\Debug\\boo.tlog\\".
+        InitializeBuildStatus:
+          Creating "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Building Custom Rule C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-C/src/CMakeLists.txt
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\src\\main.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33143 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\src\\main.c"
+          main.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\Debug\\boo.exe" /NOLOGO /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib\\manual-link" Debug\\foo.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-C/bin/Debug/boo.pdb" /SUBSYSTEM:CONSOLE /LTCG:incremental /LTCGOUT:"boo.dir\\Debug\\boo.iobj" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-C/bin/Debug/boo.lib" /MACHINE:X64  /machine:x64 boo.dir\\Debug\\main.obj
+          Generating code
+          Not all modules are compiled with -Gy (function comdat), build without incremental LTCG.
+          Finished generating code
+          boo.vcxproj -> C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\Debug\\boo.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\Debug\\boo.exe" "C:\\Users\\lusr\\scoop\\apps\\vcpkg\\current\\installed\\x64-windows\\debug\\bin" "boo.dir\\Debug\\boo.tlog\\boo.write.1u.tlog" "boo.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild".
+          Touching "boo.dir\\Debug\\boo.tlog\\boo.lastbuildstate".
+        Done Building Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\boo.vcxproj" (default targets).
+        PrepareForBuild:
+          Creating directory "x64\\Debug\\ALL_BUILD\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\".
+        InitializeBuildStatus:
+          Creating "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Building Custom Rule C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/_CMakeLTOTest-C/src/CMakeLists.txt
+        FinalizeBuildStatus:
+          Deleting file "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild".
+          Touching "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\ALL_BUILD.lastbuildstate".
+        Done Building Project "C:\\Users\\lusr\\Documents\\shape_shoot\\vendor\\JoltC\\build\\JoltPhysics\\Build\\CMakeFiles\\_CMakeLTOTest-C\\bin\\ALL_BUILD.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.60
+        
+      exitCode: 0
+...

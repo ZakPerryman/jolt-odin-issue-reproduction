@@ -1,0 +1,10 @@
+^C:\USERS\LUSR\DOCUMENTS\SHAPE_SHOOT\VENDOR\JOLTC\JOLTC\JOLTPHYSICS\BUILD\CMAKELISTS.TXT
+setlocal
+C:\Users\lusr\scoop\apps\cmake\3.30.3\bin\cmake.exe -SC:/Users/lusr/Documents/shape_shoot/vendor/JoltC/JoltC -BC:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build --check-stamp-file C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/build/JoltPhysics/Build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

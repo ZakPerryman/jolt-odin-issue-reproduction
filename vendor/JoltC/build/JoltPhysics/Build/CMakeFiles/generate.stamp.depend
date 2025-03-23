@@ -1,0 +1,12 @@
+# CMake generation dependency list for this directory.
+C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/JoltC/JoltPhysics/Build/CMakeLists.txt
+C:/Users/lusr/Documents/shape_shoot/vendor/JoltC/JoltC/JoltPhysics/Jolt/Jolt.cmake
+C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CMakeDependentOption.cmake
+C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CheckIPOSupported.cmake
+C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CheckIPOSupported/CMakeLists-C.txt.in
+C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CheckIPOSupported/CMakeLists-CXX.txt.in
+C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CheckIPOSupported/foo.c
+C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CheckIPOSupported/foo.cpp
+C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CheckIPOSupported/main.c
+C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/CheckIPOSupported/main.cpp
+C:/Users/lusr/scoop/apps/cmake/3.30.3/share/cmake-3.30/Modules/GNUInstallDirs.cmake
